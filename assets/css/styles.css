@@ -410,3 +410,119 @@ footer::before {
     right: -50px;
     transform: rotateZ(10deg);
 }
+
+/***  MEDIA QUERYS ***/
+
+@media only screen and (max-width: 1250px) {
+    /* Section 01 - Inverted World */
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #section-inverted-world .section-texts {
+        width: 90%;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    #section-inverted-world .section-texts h2 {
+        max-width: 100%;
+    }
+
+    /* Section 02 - Stranger Things Trailer */
+    #section-stranger-things-trailer .section-texts {
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    #section-stranger-things-trailer .section-texts h2 {
+        max-width: 100%;
+    }
+
+    #section-stranger-things-trailer .section-texts p {
+        max-width: 90%;
+        padding-left: 3.1rem;
+    }
+    
+
+    #section-stranger-things-trailer .video-frame {
+        background-color: inherit;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    #section-stranger-things-trailer .video-frame iframe {
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        width: 50%;
+    }
+
+    /* Section 03 - Stranger Things Gallery */
+    #section-stranger-things-gallery .container h2 {
+        width: 90%;
+        align-self: center;
+        text-align: center;  
+    }
+
+    /* Section 04 - Hellfire Club Form */
+    #section-form h2, p {
+        width: 90%;
+    }
+
+    #section-form .form-content h3 {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    #section-form .form-content {
+        flex-direction: column;  
+    }
+
+    #section-form .form-container {
+        width: 90%;
+    }
+
+    /***  FOOTER STYLES ***/
+    footer::before,
+    footer::after {
+        width: 15%; 
+    }
+
+    footer::before {
+        left: 0;
+        bottom: -5rem;   
+    } 
+
+    footer::after {
+        right: 0;
+        bottom: -5rem;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    /* Section 02 - Stranger Things Trailer */
+    #section-stranger-things-trailer .video-frame iframe {
+        width: 100%;
+        margin: 0 5px;
+    }
+}
+
+@media only screen and (max-width: 910px){
+    /* Section 03 - Stranger Things Gallery */
+    #section-stranger-things-gallery .gallery-container{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+    #section-stranger-things-gallery .gallery-image {
+        width: 90%;
+        height: 90%;
+    }
+}

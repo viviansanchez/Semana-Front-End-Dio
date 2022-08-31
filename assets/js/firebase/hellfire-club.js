@@ -15,5 +15,4 @@ export async function getHellfireClubSubscriptions () {
     const subscriptions = hellfireClubCollectionSnapshot.docs.map(doc => doc.data());
     return subscriptions;
 
-
 }
