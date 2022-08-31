@@ -414,6 +414,11 @@ footer::before {
 /***  MEDIA QUERYS ***/
 
 @media only screen and (max-width: 1250px) {
+    /***  HEADER STYLES ***/
+    .header-content p {
+        width: 100%;
+    }
+
     /* Section 01 - Inverted World */
     .container{
         width: 100%;
@@ -431,6 +436,10 @@ footer::before {
         max-width: 100%;
     }
 
+    #section-inverted-world .section-texts p {
+        width: 100%;  
+    }
+
     /* Section 02 - Stranger Things Trailer */
     #section-stranger-things-trailer .section-texts {
         width: 100%;
@@ -443,8 +452,8 @@ footer::before {
     }
 
     #section-stranger-things-trailer .section-texts p {
-        max-width: 90%;
-        padding-left: 3.1rem;
+        width: 100%;
+        padding: 0 1rem;
     }
     
 
@@ -526,3 +535,5 @@ footer::before {
         height: 90%;
     }
 }
+
+
