@@ -8,7 +8,7 @@
 <br>
 
 <p align="center">
-  <img alt="Imagem do projeto Mundi Invertido, contendo landing page e informações sobre a série Stranger Things" src="./.github/preview.png" width="100%">
+  <img alt="Imagem do projeto Mundo Invertido, contendo landing page e informações sobre a série Stranger Things" src="./.github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -22,6 +22,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Projeto construído para fins didáticos, com o objetivo de colocar em prática conhecimentos de HTML, CSS e JavaScript aprendidos na DIO.\_.
+Projeto construído para fins didáticos, com o objetivo de colocar em prática conhecimentos de HTML, CSS e JavaScript aprendidos na DIO.\_
 
 Você pode visualizar o projeto através [DESSE LINK](https://viviansanchez.github.io/Semana-Front-End-Dio/)!
